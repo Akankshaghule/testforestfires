@@ -7,6 +7,35 @@ This project is a **Machine Learning web application** built using **Flask** tha
 It uses a trained **Ridge Regression model** and takes user input through a web interface to generate predictions in real-time.
 
 ---
+## 🌐 Live Demo
+
+🔗 Deployed Project Link:  
+http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com
+
+☁️ Successfully deployed on AWS Elastic Beanstalk using Flask and Gunicorn.
+
+## ☁️ Deployment
+
+The project is deployed on AWS Elastic Beanstalk.
+
+Deployment Steps:
+1. Created Flask application
+2. Added Procfile for Gunicorn
+3. Configured AWS CLI and EB CLI
+4. Deployed application on AWS Elastic Beanstalk
+5. Hosted live ML prediction web app on cloud
+
+## 🧠 Technologies Used
+
+- Python
+- Flask
+- NumPy
+- Pandas
+- Scikit-learn
+- HTML/CSS
+- AWS Elastic Beanstalk
+- Gunicorn
+- Git & GitHub
 
 ## 🚀 Features
 
@@ -15,17 +44,6 @@ It uses a trained **Ridge Regression model** and takes user input through a web 
 * 🌐 Web interface using Flask
 * ⚡ Real-time prediction output
 * 📊 Data preprocessing using StandardScaler
-
----
-
-## 🧠 Technologies Used
-
-* Python
-* Flask
-* NumPy
-* Pandas
-* Scikit-learn
-* HTML (Frontend)
 
 ---
 
@@ -137,8 +155,12 @@ The model takes the following inputs:
 
 ## 👩‍💻 Author
 
-* Akanksha Ghule
+Akanksha Ghule
 
----
+🔗 GitHub:
+https://github.com/Akankshaghule/testforestfires
 
+🌐 Live Project:
+http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com
+for prediction output:http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com/predictdata
 ## ⭐ If you like this project, give it a star!
