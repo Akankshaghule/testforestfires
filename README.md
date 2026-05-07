@@ -8,6 +8,16 @@ It uses a trained **Ridge Regression model** and takes user input through a web 
 
 ---
 
+## 🌍 Live Deployment
+
+### Home Page
+http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com/
+
+### Prediction Page
+http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com/predictdata
+
+Use the Prediction Page link to test the ML model with custom inputs.
+
 ## 🚀 Features
 
 * 🌡️ Input environmental parameters (Temperature, Humidity, Rain, etc.)
@@ -18,16 +28,28 @@ It uses a trained **Ridge Regression model** and takes user input through a web 
 
 ---
 
+## ☁️ Deployment
+
+The project is deployed on AWS Elastic Beanstalk.
+
+Deployment Steps:
+1. Created Flask application
+2. Added Procfile for Gunicorn
+3. Configured AWS CLI and EB CLI
+4. Deployed application on AWS Elastic Beanstalk
+5. Hosted live ML prediction web app on cloud
+
 ## 🧠 Technologies Used
 
-* Python
-* Flask
-* NumPy
-* Pandas
-* Scikit-learn
-* HTML (Frontend)
-
----
+- Python
+- Flask
+- NumPy
+- Pandas
+- Scikit-learn
+- HTML/CSS
+- AWS Elastic Beanstalk
+- Gunicorn
+- Git & GitHub
 
 ## 📂 Project Structure
 
@@ -137,8 +159,12 @@ The model takes the following inputs:
 
 ## 👩‍💻 Author
 
-* Akanksha Ghule
+Akanksha Ghule
 
----
+🔗 GitHub:
+https://github.com/Akankshaghule/testforestfires
+
+🌐 Live Project:
+http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com/predictdata
 
 ## ⭐ If you like this project, give it a star!
