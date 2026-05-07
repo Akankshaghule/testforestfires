@@ -7,12 +7,15 @@ This project is a **Machine Learning web application** built using **Flask** tha
 It uses a trained **Ridge Regression model** and takes user input through a web interface to generate predictions in real-time.
 
 ---
-## 🌐 Live Demo
+## 🌍 Live Deployment
 
-🔗 Deployed Project Link:  
-http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com
+### Home Page
+http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com/
 
-☁️ Successfully deployed on AWS Elastic Beanstalk using Flask and Gunicorn.
+### Prediction Page
+http://forest-fire-env.eba-8amrfqwa.ap-south-1.elasticbeanstalk.com/predictdata
+
+Use the Prediction Page link to test the ML model with custom inputs.
 
 ## ☁️ Deployment
 
